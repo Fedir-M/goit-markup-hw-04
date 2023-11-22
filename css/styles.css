@@ -145,7 +145,7 @@ img {
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
 	margin-right: 76px;
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav__list {
@@ -223,6 +223,7 @@ img {
 	padding: 24px 0;
 	margin-right: 40px;
 	cursor: pointer;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item:last-child {
@@ -380,7 +381,7 @@ img {
 	background-color: var(--main-button-color);
 
 	cursor: pointer;
-	transition: var(--hover-transition);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .hero-button:hover,
@@ -568,7 +569,7 @@ img {
 
 .icon-social-link:hover,
 .icon-social-link:focus {
-	background-color: #31d0aa;
+	background-color: #404bbf;
 }
 
 /* ===== / OUR TEAM = SECTION 4 ===== */
